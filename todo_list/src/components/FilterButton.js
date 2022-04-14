@@ -1,9 +1,9 @@
 const FilterButton = (props) => {
     return (
-        <button type="button" className="btn toggle-btn" aria-pressed="true">
-            <span className="visually-hidden">Show </span>
-            <span>all</span>
-            <span className="visually-hidden"> tasks</span>
+       
+        <button type="button" className="btn-group" role="group" aria-pressed="true">
+             <span type="button" class="visually-hidden">All</span>
+            <button type="button" class="btn btn-outline-primary">All</button>
         </button>
     );
 

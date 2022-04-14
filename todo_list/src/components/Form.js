@@ -26,7 +26,7 @@ const Form = (props) => {
                     What needs to be done?
                 </label>
             </h2>
-            <input
+            <input 
                 type="text"
                 id="new-todo-input"
                 className="input input__lg"
@@ -35,9 +35,9 @@ const Form = (props) => {
                 value={name}
                 onChange={handleChange}
             />
-            <button type="submit" className="btn btn__primary btn__lg" id='submitButton' >
-                Add
-            </button>
+            <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-secondary" id="submitButton">Add</button>
+            </div>
         </form>
     );
 }
