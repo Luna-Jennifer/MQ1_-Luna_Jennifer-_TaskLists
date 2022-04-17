@@ -239,9 +239,8 @@ body {
 /* CHECKBOX STYLES */
 .form-check {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.6rem;
   line-height: 1.25;
   display: block;
@@ -267,8 +266,6 @@ body {
   opacity: 0;
 }
 .form-check > label {
-  font-size: inherit;
-  font-family: inherit;
   line-height: inherit;
   display: inline-block;
   margin-bottom: 0;
