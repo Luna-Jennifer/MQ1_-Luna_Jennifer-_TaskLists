@@ -36,7 +36,7 @@ const Form = (props) => {
                 onChange={handleChange}
             />
             <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-secondary" id="submitButton">Add</button>
+            <button type="submit" class="btn btn-secondary btn-lg btn-block" id="submitButton">Add</button>
             </div>
         </form>
     );

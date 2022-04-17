@@ -1,7 +1,7 @@
 const Todo = (props) => {
   return (
     <li className="todo stack-small">
-      <div className="c-cb">
+      <div className="form-check">
         <input 
           id={props.id} 
           type="checkbox" 
